@@ -37,7 +37,7 @@ async function main() {
 };
 
 async function prompt() {
-     let responseDone = "";
+     let respDn = "";
      do {
           try {
                response = await inquirer.prompt([
@@ -108,7 +108,7 @@ async function prompt() {
           console.log(TeamMayankArray)
           
 
-          responseDone = await inquirer.prompt([{
+          respDn = await inquirer.prompt([{
                type: "list",
                name: "finish",
                message: "Do you want to continue?: ",
@@ -118,7 +118,7 @@ async function prompt() {
                ]
           }, ]);
 
-     } while (responseDone.finish === "Yes");
+     } while (respDn.finish === "Yes");
 }
 
 

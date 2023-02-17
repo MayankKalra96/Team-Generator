@@ -67,14 +67,14 @@
     //arr is the employee object and looking for the properties in that class
     const generateCard = function (arr) {
         //if else statement
-        let roleInfo;
+        let role;
 
         if (arr.title === "Manager") {
-            roleInfo = `Office Number: ${arr.officeNumber}`
+            role = `Office Number: ${arr.officeNumber}`
         } else if (arr.title === "Engineer") {
-            roleInfo = `Github Username: ${arr.github}`
+            role = `Github Username: ${arr.github}`
         } else if (arr.title === "Intern") {
-            roleInfo = `School: ${arr.school}`
+            role = `School: ${arr.school}`
         }
 
         return `<div class="card">
@@ -87,7 +87,7 @@
     <ul>
         <li>ID: ${arr.id}</li>
         <li>Email: ${arr.email}</li>
-        <li>${roleInfo} </li>
+        <li>${role} </li>
     </ul>
 </div>
 </div>`
