@@ -1,4 +1,3 @@
-
 ## Team Profile Generator
 
 ## What is it and how does it work?
