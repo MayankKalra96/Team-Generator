@@ -31,37 +31,14 @@ node.js
 google font
 font awesome
 
-## Directory set up
+## Video link
+Google Drive : https://drive.google.com/file/d/16jY-vr_WCYcxDNle1pTNfrLjNKyPw_r1/view?usp=share_link
 
-```
-lib/           // classes and helper code
-    Employee.js
-    Engineer.js
-    Intern.js
-    Manager.js
-output/        // rendered output
-    //html will show up here once the user is done creating team profile
-templates/     // HTML template(s) 
-test/          // jest tests
-  Employee.test.js
-  Engineer.test.js
-  Intern.test.js
-  Manager.test.js
-app.js         // Runs the application
-.gitignore
-package-lock.json
-package.json
-pseudo.txt // written my pseudo code
-hw details/           // personal reference to hw requirements
-```
 
-# visual example of functionality
 
-TPG Application
-![demo](/gif/TPG.gif)
 
-TPG tests
-![demo](/gif/TPGtestunit.gif)
+
+
 
 
 
